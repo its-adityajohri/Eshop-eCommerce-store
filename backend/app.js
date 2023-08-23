@@ -7,8 +7,7 @@ const cors = require("cors");
 const path = require("path");
 
 app.use(cors({
-  origin: ['https://eshop-e-commerce-store-2.vercel.app/',],
-  credentials: true
+  origin: ['https://eshop-e-commerce-store-2.vercel.app/',]
 }));
 
 app.use(express.json());
